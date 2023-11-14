@@ -1,3 +1,9 @@
+zad2_1.py
+src/
+output/
+
+.gitignore
+.gitattributes
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
