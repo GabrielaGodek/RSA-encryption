@@ -1,6 +1,6 @@
 zad2_1.py
-src/
-output/
+src/original-text.txt
+src/text_key3.txt
 
 .gitignore
 .gitattributes
