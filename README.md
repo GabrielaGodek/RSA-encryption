@@ -78,6 +78,9 @@ if __name__ == '__main__':
 - `matplotlib`: This library is used for plotting the histogram.
 
 
+## Histogram
+![Histogram](public/histogram.png)
+
 ### Authors
 
 Gabriela Godek
