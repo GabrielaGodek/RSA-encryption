@@ -18,7 +18,9 @@ def euclidean(a, b):
 
 ### `modulo_inverse(a, m)`
 Finds the modular inverse of `a` modulo `m`.
-$ x \equiv a^{-1} \pmod{m} $
+```math
+x \equiv a^{-1} \pmod{m}
+```
 
 ```Python
 def modulo_inverse(a, m):
@@ -34,7 +36,9 @@ def modulo_inverse(a, m):
 ### `encrypt(encrypted_text_path, plaintext_path)`
 
 This function reads the public key from the 'public.key' file, reads the plaintext from the specified file and converts each character to its ASCII code. The most crucial part is line which raises to the power of the public key (e) with modulo (n).<br>
-$ c \equiv m^e \pmod{n} $
+```math
+c \equiv m^e \pmod{n} 
+```
 Then saves the encrypted values to a file. 
 
 ```Python
@@ -45,7 +49,9 @@ for char in formatted_plaintext:
 ### `decrypt(encrypted_text_path, decrypted_text_path)`
 
 This function reads the private key from the 'private.key' file, reads the encrypted text from the specified file, decrypts each value using the private key using , and then saves the decrypted text to a file.
-$ m \equiv c^d \pmod{n} $
+```math
+m \equiv c^d \pmod{n}
+```
 ### `plot_encrypted_text(encrypted_text, key)`
 
 - **Input**: 
