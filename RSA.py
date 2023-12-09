@@ -60,7 +60,8 @@ def plot_encrypted_text(encrypted_text, key):
      plt.xlabel('Encrypted Value')
      plt.ylabel('Frequency')
      plt.legend()
-     plt.savefig('public/histogram.png')
+     # plt.show()
+     plt.savefig('public/histogram.png', format='png')
      
      
 if __name__ == '__main__':
